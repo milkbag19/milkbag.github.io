@@ -3,179 +3,92 @@
 
 
 
-	<script src="Index.js"></script>
+<link rel="stylesheet" href="Calc.css">
+<script src="Calc.js"></script>
 <center>
 
 	<img src=https://ad-changer.cminds.com/wp-content/uploads/2014/04/banner_Improve-Ad-Changer-HP_942x296-4.png alt="taco">
 
 
-	<style>
-
-		.main {
-    background-color: lightgrey;
-    width: 50%;
-    border: 50px solid gray;
-    padding: 25px;
-    margin: 25px;
-}
-.clear{
-    padding:0px;
-    margin: 0px;
-}
-img{
-    height: 150px;
-}
-form {
-  text-align: center;
-}
-.calcTabs {
-  overflow: hidden;
-  background-color: white;
-  font-family: Arial;
-}
-
-/* Links inside the navbar */
-.calcTabs a {
-  float: left;
-  font-size: 16px;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* The dropdown container */
-.Physics {
-  float: left;
-  overflow: hidden;
-}
-
-/* Dropdown button */
-.Physics .Physicsbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: black;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
-}
-
-/* Add a red background color to navbar links on hover */
-.calcTabs a:hover, .Physics:hover .Physicsbtn {
-  background-color: gray;
-}
-
-/* Dropdown content (hidden by default) */
-.Physics-Menu {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.Physics-Menu a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-/* Add a grey background color to dropdown links on hover */
-.Physics-Menu a:hover {
-  background-color: gray;
-}
-
-/* Show the dropdown menu on hover */
-.Physics:hover .Physics-Menu {
-  display: block;
-}
 
 
-	</style>
+	<div class="main">
+		<head>
+			<center>
 
-<div class="main">
-	<head>
-		<center>
-
-			<table>
-				<div class="calcTabs">
-					<a href="index.html">Simple Calc</a>
-					<div class="Physics">
-						<button class="Physicsbtn">Physics</button>
-						<div class="Physics-Menu">
-							<a href="PhysicsCalc.html">Momentum</a>
+				<table>
+					<div class="calcTabs">
+						<a href="index.html">Simple Calc</a>
+						<div class="Physics">
+							<button class="Physicsbtn">Physics</button>
+							<div class="Physics-Menu">
+								<a href="Momentum.html">Momentum</a>
+							</div>
 						</div>
 					</div>
-				</div>
-				<h1>~Simple Calculator 3000~</h1>
-			</table>
-	
-		</center>
+					<h1>~Simple Calculator 3000~</h1>
+				</table>
 
-	</head>
+			</center>
+
+		</head>
 		<body>
-				<form name="Calculator" method="post">
-		<center>
-		<h2>
-			<p>Enter left number: <input type="text" name="A"></p>
-			
-			<p>Enter right number: <input type="text" name="B"></p>
-		</h2>
-			
-		<p>
-			<input type="button" value="ADD" name="add" onclick="addit(this.form.A.value, this.form.B.value, this.form)"> 
-			
-			<input type="button" value="SUB" name="sub" onclick="subit(this.form.A.value, this.form.B.value, this.form)"> 
-			
-			<input type="button" value="TAN" name="tan" onclick="tanit(this.form.A.value, this.form.B.value, this.form)"> 
-			
-			
-			
-		</p>
-			
-			
-		<p>
-			<input type="button" value="RDM" name="rdm" onclick="randit(this.form.A.value, this.form.B.value, this.form)"> 
-			
-			<input type="button" value="MUL" name="mul" onclick="mulit(this.form.A.value, this.form.B.value, this.form)"> 
-			
-			<input type="button" value="DIV" name="div" onclick="divit(this.form.A.value, this.form.B.value, this.form)"> 
-			
-		</p>
-			
-		<p>
-		
-			<input type="button" value="POW" name="pow" onclick="powit(this.form.A.value, this.form.B.value, this.form)"> 
-			
-			<input type="button" value="COS" name="cos" onclick="cosit(this.form.A.value, this.form.B.value, this.form)">
-			
-			<input type="button" value="SIN" name="SIN" onclick="sinit(this.form.A.value, this.form.B.value, this.form)">
-			
-		</p>
+		<form name="Calculator" method="post">
+			<center>
+				<h2>
+					<p>Enter left number: <input type="text" name="A"></p>
 
-			
-		<p>
+					<p>Enter right number: <input type="text" name="B"></p>
+				</h2>
 
-			<input type="text" name="answer">
-			
-		</p>
-		</center>
-			</table>
-				</form>
 				<p>
-				Note : Functions that only calculate one number use the left number
+					<input type="button" value="ADD" name="add" onclick="addit(this.form.A.value, this.form.B.value, this.form)">
+
+					<input type="button" value="SUB" name="sub" onclick="subit(this.form.A.value, this.form.B.value, this.form)">
+
+					<input type="button" value="TAN" name="tan" onclick="tanit(this.form.A.value, this.form.B.value, this.form)">
+
+
+
 				</p>
+
+
+				<p>
+					<input type="button" value="RDM" name="rdm" onclick="randit(this.form.A.value, this.form.B.value, this.form)">
+
+					<input type="button" value="MUL" name="mul" onclick="mulit(this.form.A.value, this.form.B.value, this.form)">
+
+					<input type="button" value="DIV" name="div" onclick="divit(this.form.A.value, this.form.B.value, this.form)">
+
+				</p>
+
+				<p>
+
+					<input type="button" value="POW" name="pow" onclick="powit(this.form.A.value, this.form.B.value, this.form)">
+
+					<input type="button" value="COS" name="cos" onclick="cosit(this.form.A.value, this.form.B.value, this.form)">
+
+					<input type="button" value="SIN" name="SIN" onclick="sinit(this.form.A.value, this.form.B.value, this.form)">
+
+				</p>
+
+
+				<p>
+
+					<input type="text" name="answer">
+
+				</p>
+			</center>
+			</table>
+		</form>
+		<p>
+			Note : Functions that only calculate one number use the left number
+		</p>
 		</body>
 
 
 	</div>
-	
+
 </center>
-		
+
 </html>
