@@ -46,8 +46,14 @@
         <form name="PCalculator" method="post">
             <center>
                 <h2>
-                    
-                    <p>Mass:<input class="clear"  type="text" name="M">Kg</p>
+                    <select>
+                        <option value="elastic">Completely Elastic</option>
+                        <option value="saab">Completely Non-Elastic</option>
+                    </select>
+                    <p>Mass of Object 1:<input class="clear"  type="text" name="M1">Kg</p>
+                    <p>Velocity of Object 1:<input class="clear"  type="text" name="V1">m/s</p>
+                    <p>Mass of Object 2:<input class="clear"  type="text" name="M2">Kg</p>
+                    <p>Velocity of Object 2:<input class="clear"  type="text" name="V1">m/s</p>
                 </h2>
 
                 <input type="button" value="SUBMIT" value="AJAX" name="PCALC" onclick="pcalc(this.form.P.value,this.form.V.value,this.form.M.value,this.form)">
