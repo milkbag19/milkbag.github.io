@@ -99,3 +99,15 @@ function loadDoc() {
   xhttp.open("GET", "secondPage.html", true);
   xhttp.send();
 }
+
+function p(M1, M2, V1, V2, form){
+        comp1 = M1*V1;
+        comp2 = M2*V2;
+        comp3 = parseInt(M1)+parseInt(M2);
+        comp4 = comp1+comp2;
+
+        var V12 = comp4/comp3;
+        form.ANS.value = V12;
+
+
+}
