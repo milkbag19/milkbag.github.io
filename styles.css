@@ -1,0 +1,205 @@
+		body {
+			background: rgb(44,47,51);
+		}
+		.buttons {
+  			background-color: #696969;
+  			color: white;
+  			padding: 16px;
+  			font-size: 16px;
+  			border: none;
+		}
+
+		.parallax {
+			background-image: url("portfolioBackground.png");
+			min-height: 930px;
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+		}
+
+		.masterbody {
+			
+			padding:0px 225px;
+			
+		}
+		.box:hover
+		{
+			-webkit-transform: scale(1.3);
+			-ms-transform: scale(1.3);
+			transform: scale(1.3);
+			box-shadow: inset 0 0 0 15px #53a7ea;
+
+		}
+		.box{
+			transition:all 0.5s ease;
+			animation: swing 1s ease;
+			position: center;
+			width: 300px;
+			border: 5px rgb(44,47,51);
+			padding: 50px;
+			background: gray;
+			text-align: center;
+			margin: auto;
+			background-size: cover;
+		}
+		.boxc:hover
+		{
+			-webkit-transform: scale(1.3);
+			-ms-transform: scale(1.3);
+			transform: scale(1.3);
+			box-shadow: inset 0 0 0 15px #53a7ea;
+
+		}
+		.boxc{
+			transition:all 0.5s ease;
+			animation: swing 1s ease;
+			position: center;
+			width: 300px;
+			border: 5px rgb(44,47,51);
+			padding: 50px;
+			background: gray;
+			text-align: center;
+			margin: auto;
+			background-size: cover;
+			color: white;
+		}
+
+		.PhotoTitle{
+			margin: auto;
+			font-size: 24px;
+			text-align: center;
+			color: aliceblue;
+		}
+		.PhotoEdit{
+			background-image: url("ps.png");
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			box-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+			padding-top: 5px;
+		}
+		.Java{
+			background-image: url("javaLogo.jpg");
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
+			padding-bottom: 5px;
+			padding-top: 5px;
+		}
+
+
+		.JavaTitle{
+			margin: auto;
+			font-size: 24px;
+			text-align: center;
+			color: aliceblue;
+		}
+					
+		.buttons1 {
+  			background-color: #696969;
+  			color: white;
+  			padding: 16px;
+  			font-size: 16px;
+  			border: none;
+		}
+
+		.downloadable {
+			width:100%;
+			min-height:1000px;
+			height:100%;
+		}
+		downloadbtn:hover {
+			text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+			-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+			-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+		}
+		.downloadbtn {
+			color: #fff !important;
+			text-transform: uppercase;
+			text-decoration: none;
+			background: #ed3330;
+			padding: 20px;
+			border-radius: 5px;
+			cursor: pointer;
+			display: inline-block;
+			border: none;
+			transition: all 0.4s ease 0.5s;
+		}
+		.projectsbox {
+  			position: relative;
+  			display: inline-block;
+			bottom:50px;
+			
+		}
+
+		.ListArea {
+  			display: none;
+  			position: absolute;
+  			background-color: #f1f1f1;
+  			min-width: 80px;
+  			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  			z-index: 1;
+		}
+
+		.ListArea a {
+  			color: black;
+  			padding: 12px 16px;
+  			text-decoration: none;
+  			display: block;
+		}
+		.ButtonRow button{
+			
+
+		#h02 {
+			
+		}
+			
+		}
+		.ButtonRow {
+			position:relative;
+			top:-10px;
+			padding: 0px 52px;
+			min-height:10px;
+			height:75px;
+			display:relative;
+			border:solid 1px;
+			background-color:#2E9CCA;
+		}
+			
+		
+		.title {
+			position:relative;
+			top:10px;
+			font-size: 45px;
+			font-family:Impact;
+		}
+
+		#h01 {
+			text-align:center;
+			font-family:Helvetica;
+			border-bottom:solid;
+			
+		}
+
+
+		#h03 {
+			text-align:center;
+		}
+
+		.ListArea a:hover {background-color: #ddd;}
+		
+		.buttons1:after{content:" \25BC"}
+		
+		.buttons1:hover:after{content:" \25B2"}
+
+		.projectsbox:hover .ListArea {display:block;}
+		
+		.projectsbox:hover:after .buttons1 {content:"Personal Projects \25B2"}
+
+		.projectsbox:hover .buttons {background-color: #3e8e41;}
+		
+		.projectsbox:hover .buttons1 {background-color: #3e8e41;}
