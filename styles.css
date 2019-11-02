@@ -8,7 +8,20 @@
   			font-size: 16px;
   			border: none;
 		}
+		.calcTabs {
+			  overflow: hidden;
+			  background-color: white;
+			  font-family: Arial;
+		}
 
+		.calcTabs a {
+			  float: left;
+			  font-size: 16px;
+			  color: black;
+			  text-align: center;
+			  padding: 14px 16px;
+			  text-decoration: none;
+		}
 		.parallax {
 			background-image: url("portfolioBackground.png");
 			min-height: 930px;
