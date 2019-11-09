@@ -41,7 +41,7 @@
 		.storyTitle{
 		    padding: 15px;
 
-		    margin-top: 15px;
+		    margin-top: 150px;
             margin-left: 25%;
             margin-bottom: 0px;
             margin-right: 25%;
@@ -197,8 +197,6 @@
             padding-top: 5px;
             float:left;
             margin:0px;
-            right: 0;
-            left: 0;
 		}
 		.EXP{
 		    text-align:left;
