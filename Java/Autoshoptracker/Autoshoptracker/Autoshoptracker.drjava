@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20160913-225446">
+  <project autorefresh="false" build="classes/" main="" root="" work="">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="src/Item.java" package="" timestamp="15-Jun-2019 18:30:28">
+        <select from="301" to="301"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="src/FIO.java" package="" timestamp="15-Jun-2019 18:22:48">
+        <select from="301" to="301"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="src/Func.java" package="" timestamp="15-Jun-2019 18:22:58">
+        <select from="301" to="301"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="src/Inventory_main.java" package="" timestamp="15-Jun-2019 18:17:50">
+        <select from="301" to="301"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="src/JCanvas.java" package="" timestamp="15-Jun-2019 18:23:18">
+        <select from="301" to="301"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="src/TschaException.java" package="" timestamp="15-Jun-2019 18:23:24">
+        <select from="301" to="301"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="src/TschaFIOException.java" package="" timestamp="15-Jun-2019 18:23:28">
+        <select from="301" to="301"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="src/Email.java" package="" timestamp="15-Jun-2019 18:30:14">
+        <select from="301" to="301"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="src/In.java" package="" timestamp="15-Jun-2019 18:30:14">
+        <select from="301" to="301"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="src/JBox.java" package="" timestamp="15-Jun-2019 18:30:20">
+        <select from="301" to="301"/>
+        <scroll column="0" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath>
+      <file absolute="false" name="mail.jar"/>
+    </classpath>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>
