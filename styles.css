@@ -192,10 +192,9 @@
             background-position: center;
             background-attachment: fixed;
             background-repeat: no-repeat;
-            background-size: 100% 100%;
+            background-size: 100% 50%;
             box-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
             padding-top: 5px;
-			padding: 150px;
             float:left;
             margin:0px;
 		}
