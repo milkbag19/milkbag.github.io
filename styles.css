@@ -12,16 +12,22 @@
 		}
 		.calcTabs {
 			  overflow: hidden;
-			  background-color: white;
+			  background-color: #f1f1f1;
 			  font-family: Arial;
+			  width:98%;
+			  margin:10px;
+			  text-align:center;
+			  position:fixed;
+			  border-radius: 10px;
 		}
 		.calcTabs a:hover{
   			background-color: gray;
+              color: white;
 		}
 		.calcTabs a {
 			  float: left;
 			  font-size: 16px;
-			  color: black;
+			  color: #000;
 			  text-align: center;
 			  padding: 14px 16px;
 			  text-decoration: none;
@@ -57,9 +63,11 @@
              font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
              box-shadow:         inset 0 0 10px #000000;
              border-color: gray;
-             text-align: center;
              text-transform: uppercase;
              text-rendering: optimizeLegibility;
+			text-align: center;
+			position:center;
+			display: inline-block;
 		}
 
 		.story{
@@ -137,12 +145,13 @@
 			width: 300px;
 			box-shadow: 10px black;
 			border-radius: 25px;
-			border: 5px rgb(44,47,51);
+			border: 10px gray;
 			padding: 50px;
 			background: gray;
 			text-align: center;
 			margin: auto;
 			background-size: cover;
+
 		}
 		.boxc:hover
 		{
@@ -191,7 +200,8 @@
             padding-top: 5px;
             padding-bottom: 5px;
             margin:0px;
-            position: center;
+            right: 0;
+            left: 0;
 		}
 
 		.EXP{
