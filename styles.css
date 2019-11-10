@@ -28,7 +28,7 @@
 		}
 		.parallax {
 			background-image: url("portfolioBackground.png");
-			min-height: 1440px;
+			min-height: 1080px;
 			background-attachment: fixed;
 			background-position: center;
 			background-repeat: no-repeat;
@@ -49,18 +49,17 @@
 		    border-radius: 25px;
             border: 2px solid white;
             color: #2c2c2c;
-                            background-color: white;
-                            letter-spacing: .05em;
-                            text-shadow:
-                              1px 2px 0px #d5d5d5,
-                              2px 2px 0px rgba(0, 0, 0, 0.2);
-                              font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-
-                                box-shadow:         inset 0 0 10px #000000;
-                                border-color: gray;
-                                text-align: center;
-                                text-transform: uppercase;
-                                text-rendering: optimizeLegibility;
+             background-color: white;
+             letter-spacing: .05em;
+             text-shadow:
+             1px 2px 0px #d5d5d5,
+             2px 2px 0px rgba(0, 0, 0, 0.2);
+             font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+             box-shadow:         inset 0 0 10px #000000;
+             border-color: gray;
+             text-align: center;
+             text-transform: uppercase;
+             text-rendering: optimizeLegibility;
 		}
 
 		.story{
@@ -190,9 +189,11 @@
             background-size: 100% 100%;
             box-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
             padding-top: 5px;
+            padding-bottom: 5px;
             margin:0px;
             position: center;
 		}
+
 		.EXP{
 		    text-align:left;
 		}
@@ -202,7 +203,10 @@
                             			background-repeat: no-repeat;
                             			background-size: 100% 100%;
                             			box-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
-                            			padding-top: 5px;
+                            			padding: 5px;
+                            			margin:5px;
+                            			margin-top:25px;
+                            			border-radius: 20px;
         		}
 		.Java{
 			background-image: url("javaLogo.jpg");
