@@ -16,9 +16,10 @@
 			  font-family: Arial;
 			  width:98%;
 			  margin:10px;
+			  margin-top:0px;
 			  text-align:center;
 			  position:fixed;
-			  border-radius: 10px;
+			  border-radius:10px;
 		}
 		.calcTabs a:hover{
   			background-color: gray;
@@ -26,7 +27,7 @@
 		}
 		.calcTabs a {
 			  float: left;
-			  font-size: 16px;
+			  font-size: 20px;
 			  color: #000;
 			  text-align: center;
 			  padding: 14px 16px;
@@ -34,7 +35,7 @@
 		}
 		.parallax {
 			background-image: url("portfolioBackground.png");
-			min-height: 1080px;
+			min-height: 900px;
 			background-attachment: fixed;
 			background-position: center;
 			background-repeat: no-repeat;
