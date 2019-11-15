@@ -215,6 +215,7 @@
                 		    background-attachment: fixed;
                 		    background-color:rgb(53, 56, 54);
                             			background-position: center;
+                            			color:#d3d3d3;
                             			background-repeat: no-repeat;
                             			background-size: 100% 100%;
                             			box-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
@@ -277,7 +278,45 @@
   			position: relative;
   			display: inline-block;
 			bottom:50px;
-			
+		}
+
+		.sideNav{
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: 0.5s;
+            opacity:0.95;
+            padding-top: 60px;
+		}
+@media screen and (max-height: 450px) {
+  .sideNav {padding-top: 15px;}
+  .sideNav a {font-size: 18px;}
+}
+		.sideNav a{
+		    padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 40px;
+            color: #f2f2f2;
+            display: block;
+            transition: 0.3s;
+		}
+		.sideNav a:hover{
+		    color:#f1f1f1;
+		    background-color:#4D4D4D;
+		    cursor:pointer;
+		}
+
+		.sideNav .closeBtn{
+		    position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
 		}
 
 		.ListArea {

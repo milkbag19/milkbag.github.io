@@ -42,6 +42,15 @@ function tanit(a, b, form){
 	form.answer.value=Math.tan(A);
 
 }
+	function openNav(){
+		document.getElementById("menuButton").style.width = "100%";
+		document.getElementById("menu").style.opacity = "0";
+	}
+
+	function closeNav(){
+		document.getElementById("menuButton").style.width = "0%";
+		document.getElementById("menu").style.opacity = "1";
+	}
 
 function pcalc(momentumm, velocityy, masss, form){
     if(momentumm==""){
