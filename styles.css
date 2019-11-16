@@ -293,10 +293,6 @@
             opacity:0.95;
             padding-top: 60px;
 		}
-@media screen and (max-height: 450px) {
-  .sideNav {padding-top: 15px;}
-  .sideNav a {font-size: 18px;}
-}
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
