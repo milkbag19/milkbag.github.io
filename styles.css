@@ -36,7 +36,7 @@
 		}
 		.parallax {
 			background-image: url("portfolioBackground.png");
-			height: 900px;
+			height: 100vh;
 			background-attachment: fixed;
 			background-position: center;
 			background-repeat: no-repeat;
@@ -103,11 +103,22 @@
             bottom: 0;
             right: 0;
             left: 0;
-            box-shadow: 0px -7px 0px gray inset;
-            background-color: white;
-            margin: 0px;
-            padding: 15px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom:0;
+            padding: 0px;
             text-align: center;
+            width: 5rem;
+            height:5rem;
+            transition:0.1s;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-image: url('https://lh3.googleusercontent.com/proxy/ozxG1t4S9r3A1volpIHorPNfAapCyiw1bYUZ9V5H50cC4lZQbBJEy0IoA8LVE3b1l-xBfGVCuH-cUrpQ7zHuJjFM89legXUzeWhxlP8Yabn9HF--O3iE-RXEmg');
+
+        }
+        .AboutTitle:hover{
+            font-size:70px !important;
         }
         .AboutTitle:after{
         top: -15px;
