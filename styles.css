@@ -95,9 +95,9 @@
 		margin-top:47vh;
 		position:fixed;
 		z-index:0;
-		width:5vw;
 		background-size: cover;
 		transition:0.25s;
+		filter: drop-shadow(1px 1px 2px black);
 		}
 		.socialMedia:hover{
 		opacity:0.6;
