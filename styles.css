@@ -91,9 +91,21 @@
                     text-transform: uppercase;
                     text-rendering: optimizeLegibility;
 		}
+		.socialMedia{
+		margin-top:47vh;
+		position:fixed;
+		z-index:0;
+		width:5vw;
+		background-size: cover;
+		transition:0.25s;
+		}
+		.socialMedia:hover{
+		opacity:0.6;
+		}
         .AboutTitle{
             color: gray;
-            font-size: 55px;
+            font-size: 5em;
+            font-weight:1200;
             position: absolute;
             bottom: 0;
             right: 0;
@@ -104,17 +116,17 @@
             padding: 0px;
             text-align: center;
             width: 5rem;
-            height:5rem;
-            transition:0.1s;
+            height:7rem;
+            transition:0.25s;
             background-size: contain;
             background-repeat: no-repeat;
             background-position: center;
-            background-image: url('https://lh3.googleusercontent.com/proxy/ozxG1t4S9r3A1volpIHorPNfAapCyiw1bYUZ9V5H50cC4lZQbBJEy0IoA8LVE3b1l-xBfGVCuH-cUrpQ7zHuJjFM89legXUzeWhxlP8Yabn9HF--O3iE-RXEmg');
-
+            animation: bounce 1.5s infinite;
         }
         .AboutTitle:hover{
-            font-size:70px !important;
+            height:10rem;
         }
+
         .AboutTitle:after{
         top: -15px;
           left: -15px;
@@ -213,6 +225,7 @@
             margin:0px;
             right: 0;
             left: 0;
+            z-index:2;
 		}
 
 		.EXP{
