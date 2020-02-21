@@ -50,23 +50,15 @@
 		.storyTitle{
 		    padding: 15px;
 		    margin-top: 12vh;
-            margin-left: 5vw;
+            margin-left: 0vw;
             margin-bottom: 0;
-            margin-right: 5vw;
-		    background-color: white;
-		    width:50vw;
+            margin-right: 65vw;
+		    width:30vw;
 		    font-size:4vh;
-		    border-radius: 25px;
-            border: 2px solid white;
-            color: #2c2c2c;
-             background-color: white;
+            color: white;
+            text-shadow: 2px 2px 4px #000000;
              letter-spacing: .05em;
-             text-shadow:
-             1px 2px 0px #d5d5d5,
-             2px 2px 0px rgba(0, 0, 0, 0.2);
              font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-             box-shadow:         inset 0 0 10px #000000;
-             border-color: gray;
              text-transform: uppercase;
              text-rendering: optimizeLegibility;
 			text-align: center;
@@ -81,9 +73,9 @@
                         margin-bottom: 12vh;
                         margin-right: 5vw;
             padding: 15px;
-            width:25vw;
+            width:80vw;
             display: inline-block;
-            font-size:4vh;
+            font-size:3vh;
             border-radius: 25px;
             border: 2px solid white;
             color: #2c2c2c;
