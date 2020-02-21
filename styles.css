@@ -1,8 +1,8 @@
 		body {
 			background: rgb(44,47,51);
-			margin:0px;
-			padding:0px;
-			width:100vw;
+			margin:0 auto;
+			padding:0;
+			width:98vw;
 		}
 		.buttons {
   			background-color: #696969;
@@ -37,12 +37,12 @@
 		}
 		.parallax {
 			background-image: url("portfolioBackground.png");
-			height: 100vh;
-			width:100vw;
+			height: 95vh;
+			width:95vw;
 			background-attachment: fixed;
 			background-position: center;
 			background-repeat: no-repeat;
-			background-size: cover;
+			background-size: 95vw 95vh;
             position: relative;
             padding:0px;
             margin:0px;
